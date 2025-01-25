@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selector</title>
+    <style>
+        .line{
+            color: red;
+            background-color: black;
+        }
+        #line3{
+            color: blue;
+        }
+        p{
+            color: aquamarine;
+            background-color: pink;
+        }
+        /* Attribute selector  */
+        input[type="text"]{
+            padding: 10px;
+            background-color: red;
+        }
+        /*Psedudo selector */
+        button:hover{
+            background-color: blue;
+            padding: 10px;
+            border: 2px dotted red;
+        }
+         /* selector list */
+         h1,p{
+            background-color: orange;
+         }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!----class selector-->
+      <h1>sonu singh</h1>
+      <p class="line">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero facilis
+        possimus corrupti officiis inventore magni blanditiis necessitatibus
+        praesentium doloremque molestias deserunt pariatur nostrum esse ad saepe
+        nam reprehenderit ab, excepturi delectus, est voluptate? Quia adipisci
+        deserunt obcaecati temporibus? Nulla, a?
+      </p>
+      <!--id selctor-->
+      <p id="line3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eum accusamus consequatur nesciunt voluptate, aperiam quo recusandae vel neque sunt?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque veritatis mollitia soluta esse asperiores. Fugit culpa autem deleniti maiores! Iure?</p>
+      <input type="text">
+      <br>
+      <br>
+      <button>hover me</button>
+    </div>
+  </body>
+</html>
